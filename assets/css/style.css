@@ -1,0 +1,120 @@
+/* ===== GLOBAL THEME COLORS ===== */
+:root {
+    --primary-gradient: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    --secondary-gradient: linear-gradient(135deg, #1e3c72, #2a5298);
+    --card-bg: #ffffff;
+    --text-dark: #212529;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.7;
+    background-color: #f8f9fa;
+}
+
+
+
+/* ===== HERO SECTION BACKGROUND ===== */
+.hero-section {
+    background:
+        linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+        url("../images/college.png") center/cover no-repeat;
+    padding: 100px 0;
+}
+
+
+.hero-section h1 {
+    margin-bottom: 10px;
+}
+/* ===== EVENT IMAGE FIX ===== */
+.event-img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+}
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.2);
+}
+
+/* ===== HERO SECTION WITH COLLEGE BACKGROUND ===== */
+.hero-section {
+    animation: fadeIn 0.8s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+}
+/* ===== FULL HOME PAGE BACKGROUND ===== */
+/* ===== HOME PAGE BACKGROUND ===== */
+.home-page {
+    background:
+        linear-gradient(
+            rgba(15, 32, 39, 0.75),
+            rgba(44, 83, 100, 0.75)
+        ),
+        url("../images/college.jpg") center/cover fixed no-repeat;
+    min-height: 100vh;
+}
+
+
+/* Make content sections readable */
+.home-page section,
+.home-page footer {
+    background-color: rgba(255, 255, 255, 0.95);
+    color: #000;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.navbar {
+    background: var(--secondary-gradient) !important;
+}
+/* ===== EVENTS PAGE HEADER GRADIENT ===== */
+.events-page .hero-section {
+    background: linear-gradient(
+        135deg,
+        #1e3c72,
+        #2a5298
+    );
+    padding: 100px 0;
+    color: #ffffff;
+}
+/* ===== GALLERY PAGE ===== */
+.gallery-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 14px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+}
+
+.gallery-card img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+}
+
+.gallery-card:hover img {
+    transform: scale(1.08);
+}
+
+.gallery-caption {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.8), transparent);
+    color: #fff;
+    padding: 12px;
+    font-weight: 500;
+    text-align: center;
+}
