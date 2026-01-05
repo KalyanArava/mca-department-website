@@ -44,9 +44,17 @@ body {
 }
 
 /* ===== HERO SECTION WITH COLLEGE BACKGROUND ===== */
-.hero-section {
-    animation: fadeIn 0.8s ease-in-out;
+/* ===== HOME PAGE FULL BACKGROUND FIX ===== */
+.home-page .hero-section {
+    background:
+        linear-gradient(
+            rgba(15, 32, 39, 0.75),
+            rgba(44, 83, 100, 0.75)
+        ),
+        url("../images/college.jpg") center/cover no-repeat;
+    min-height: 70vh;
 }
+
 
 @keyframes fadeIn {
     from { opacity: 0; transform: translateY(-10px); }
