@@ -280,3 +280,7 @@ footer {
   padding-top:10px;
   border-top:1px solid rgba(255,255,255,.18);
 }
+.event-tag.academic{color:#38bdf8}
+.event-tag.technical{color:#22d3ee}
+.event-tag.cultural{color:#f59e0b}
+.event-tag.outreach{color:#a78bfa}
