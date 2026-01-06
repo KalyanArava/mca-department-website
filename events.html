@@ -1,278 +1,261 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>MCA Events 2025 | SVCE</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="assets/css/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<title>MCA Events 2025 | SVCE</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body class="events-page">
 
-
-<!-- ===== NAVBAR ===== -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-    <div class="container">
-        <a class="navbar-brand fw-bold" href="index.html">MCA Department</a>
-        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navMenu">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navMenu">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-                <li class="nav-item"><a class="nav-link active" href="events.html">Events 2025</a></li>
-                <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
-                <li class="nav-item"><a class="nav-link" href="faculty.html">Faculty</a></li>
-                <li class="nav-item"><a class="nav-link" href="alumni.html">Alumni</a></li>
-                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-            </ul>
-        </div>
+<nav class="navbar navbar-expand-lg navbar-dark">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="index.html">MCA Department</a>
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link active" href="events.html">Events 2025</a></li>
+        <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+      </ul>
     </div>
+  </div>
 </nav>
 
-<!-- ===== PAGE HEADER ===== -->
 <header class="hero-section text-white text-center">
-    <div class="container">
-        <h1 class="fw-bold">Department Events – 2025</h1>
-        <p class="lead">Completed Academic, Technical, Cultural & Outreach Activities</p>
-    </div>
+  <div class="container fade-up">
+    <h1 class="fw-bold">Department Events – 2025</h1>
+    <p class="lead">Academic • Technical • Cultural • Outreach</p>
+  </div>
 </header>
 
-<!-- ===== EVENTS SECTION ===== -->
 <section class="container my-5">
 
+<input type="text" id="eventSearch" class="form-control mb-4"
+placeholder="Search events...">
 
-
-
-<div class="row g-4">
+<div class="row g-4" id="eventList">
 
 <!-- 1 -->
-<div class="col-md-6">
-<a href="events/2025/financial-awareness-2025.html" class="text-decoration-none text-dark">
-<div class="card h-100 shadow-sm">
-<div class="card-body">
-<h5 class="card-title">Financial Awareness & Consumer Training</h5>
-<p class="text-muted">19 April 2025</p>
-<p class="card-text">Workshop on financial literacy and responsible consumer practices.</p>
-<span class="badge bg-success">Completed</span>
-</div>
-</div>
-</a>
-</div>
+<div class="col-md-6 fade-up">
+<a href="events/2025/financial-awareness-2025.html" class="text-decoration-none">
+<div class="card glass h-100 event-card-ui"><div class="card-body d-flex flex-column">
+<span class="event-tag mb-2">ACADEMIC EVENT</span>
+<h5 class="card-title mb-2">Financial Awareness & Consumer Training</h5>
+<div class="event-meta mb-2">📅 19 April 2025</div>
+<p class="card-text flex-grow-1">Workshop on financial literacy and responsible consumer practices.</p>
+<div class="event-footer d-flex justify-content-between align-items-center">
+<span class="status-completed">Completed</span><span class="view-more">View Details →</span>
+</div></div></div></a></div>
 
 <!-- 2 -->
-<div class="col-md-6">
-<a href="events/2025/financial-education-2025.html" class="text-decoration-none text-dark">
-<div class="card h-100 shadow-sm">
-<div class="card-body">
-<h5 class="card-title">Financial Education for Students</h5>
-<p class="text-muted">06 October 2025</p>
-<p class="card-text">SEBI-sponsored seminar on savings, investments, and planning.</p>
-<span class="badge bg-success">Completed</span>
-</div>
-</div>
-</a>
-</div>
+<div class="col-md-6 fade-up">
+<a href="events/2025/financial-education-2025.html" class="text-decoration-none">
+<div class="card glass h-100 event-card-ui"><div class="card-body d-flex flex-column">
+<span class="event-tag mb-2">ACADEMIC EVENT</span>
+<h5 class="card-title mb-2">Financial Education for Students</h5>
+<div class="event-meta mb-2">📅 06 October 2025</div>
+<p class="card-text flex-grow-1">SEBI-sponsored seminar on savings, investments, and planning.</p>
+<div class="event-footer d-flex justify-content-between align-items-center">
+<span class="status-completed">Completed</span><span class="view-more">View Details →</span>
+</div></div></div></a></div>
 
 <!-- 3 -->
-<div class="col-md-6">
-<a href="events/2025/innovation-outreach-2025.html" class="text-decoration-none text-dark">
-<div class="card h-100 shadow-sm">
-<div class="card-body">
-<h5 class="card-title">Innovation & Entrepreneurship Outreach</h5>
-<p class="text-muted">August 2025</p>
-<p class="card-text">Outreach program to inspire creativity in school students.</p>
-<span class="badge bg-success">Completed</span>
-</div>
-</div>
-</a>
-</div>
+<div class="col-md-6 fade-up">
+<a href="events/2025/innovation-outreach-2025.html" class="text-decoration-none">
+<div class="card glass h-100 event-card-ui"><div class="card-body d-flex flex-column">
+<span class="event-tag mb-2">OUTREACH EVENT</span>
+<h5 class="card-title mb-2">Innovation & Entrepreneurship Outreach</h5>
+<div class="event-meta mb-2">📅 August 2025</div>
+<p class="card-text flex-grow-1">Outreach program to inspire creativity in school students.</p>
+<div class="event-footer d-flex justify-content-between align-items-center">
+<span class="status-completed">Completed</span><span class="view-more">View Details →</span>
+</div></div></div></a></div>
 
 <!-- 4 -->
-<div class="col-md-6">
-<a href="events/2025/industry-interaction-2025.html" class="text-decoration-none text-dark">
-<div class="card h-100 shadow-sm">
-<div class="card-body">
-<h5 class="card-title">Industry Interaction – What Industry Needs</h5>
-<p class="text-muted">23 August 2025</p>
-<p class="card-text">Session with industry expert on current IT expectations.</p>
-<span class="badge bg-success">Completed</span>
-</div>
-</div>
-</a>
-</div>
+<div class="col-md-6 fade-up">
+<a href="events/2025/industry-interaction-2025.html" class="text-decoration-none">
+<div class="card glass h-100 event-card-ui"><div class="card-body d-flex flex-column">
+<span class="event-tag mb-2">ACADEMIC EVENT</span>
+<h5 class="card-title mb-2">Industry Interaction – What Industry Needs</h5>
+<div class="event-meta mb-2">📅 23 August 2025</div>
+<p class="card-text flex-grow-1">Session with industry expert on current IT expectations.</p>
+<div class="event-footer d-flex justify-content-between align-items-center">
+<span class="status-completed">Completed</span><span class="view-more">View Details →</span>
+</div></div></div></a></div>
 
 <!-- 5 -->
-<div class="col-md-6">
-<a href="events/2025/tech-spark-2025.html" class="text-decoration-none text-dark">
-<div class="card h-100 shadow-sm">
-<div class="card-body">
-<h5 class="card-title">Tech Spark – 2025</h5>
-<p class="text-muted">01 November 2025</p>
-<p class="card-text">Inter-level technical competition promoting innovation.</p>
-<span class="badge bg-success">Completed</span>
-</div>
-</div>
-</a>
-</div>
+<div class="col-md-6 fade-up">
+<a href="events/2025/tech-spark-2025.html" class="text-decoration-none">
+<div class="card glass h-100 event-card-ui"><div class="card-body d-flex flex-column">
+<span class="event-tag mb-2">TECHNICAL EVENT</span>
+<h5 class="card-title mb-2">Tech Spark – 2025</h5>
+<div class="event-meta mb-2">📅 01 November 2025</div>
+<p class="card-text flex-grow-1">Inter-level technical competition promoting innovation.</p>
+<div class="event-footer d-flex justify-content-between align-items-center">
+<span class="status-completed">Completed</span><span class="view-more">View Details →</span>
+</div></div></div></a></div>
 
 <!-- 6 -->
-<div class="col-md-6">
-<a href="events/2025/technical-quiz-2025.html" class="text-decoration-none text-dark">
-<div class="card h-100 shadow-sm">
-<div class="card-body">
-<h5 class="card-title">Technical Quiz Competition</h5>
-<p class="text-muted">15 November 2025</p>
-<p class="card-text">Quiz to test core computer science knowledge.</p>
-<span class="badge bg-success">Completed</span>
-</div>
-</div>
-</a>
-</div>
+<div class="col-md-6 fade-up">
+<a href="events/2025/technical-quiz-2025.html" class="text-decoration-none">
+<div class="card glass h-100 event-card-ui"><div class="card-body d-flex flex-column">
+<span class="event-tag mb-2">TECHNICAL EVENT</span>
+<h5 class="card-title mb-2">Technical Quiz Competition</h5>
+<div class="event-meta mb-2">📅 15 November 2025</div>
+<p class="card-text flex-grow-1">Quiz to test core computer science knowledge.</p>
+<div class="event-footer d-flex justify-content-between align-items-center">
+<span class="status-completed">Completed</span><span class="view-more">View Details →</span>
+</div></div></div></a></div>
 
 <!-- 7 -->
-<div class="col-md-6">
-<a href="events/2025/entrepreneurship-seminar-2025.html" class="text-decoration-none text-dark">
-<div class="card h-100 shadow-sm">
-<div class="card-body">
-<h5 class="card-title">Entrepreneurship & Innovation Seminar</h5>
-<p class="text-muted">14 November 2025</p>
-<p class="card-text">Seminar encouraging entrepreneurial mindset.</p>
-<span class="badge bg-success">Completed</span>
-</div>
-</div>
-</a>
-</div>
+<div class="col-md-6 fade-up">
+<a href="events/2025/entrepreneurship-seminar-2025.html" class="text-decoration-none">
+<div class="card glass h-100 event-card-ui"><div class="card-body d-flex flex-column">
+<span class="event-tag mb-2">ACADEMIC EVENT</span>
+<h5 class="card-title mb-2">Entrepreneurship & Innovation Seminar</h5>
+<div class="event-meta mb-2">📅 14 November 2025</div>
+<p class="card-text flex-grow-1">Seminar encouraging entrepreneurial mindset.</p>
+<div class="event-footer d-flex justify-content-between align-items-center">
+<span class="status-completed">Completed</span><span class="view-more">View Details →</span>
+</div></div></div></a></div>
 
 <!-- 8 -->
-<div class="col-md-6">
-<a href="events/2025/graduation-day-2025.html" class="text-decoration-none text-dark">
-<div class="card h-100 shadow-sm">
-<div class="card-body">
-<h5 class="card-title">Graduation Day – 2025</h5>
-<p class="text-muted">22 November 2025</p>
-<p class="card-text">Celebration of academic achievements of MCA students.</p>
-<span class="badge bg-success">Completed</span>
-</div>
-</div>
-</a>
-</div>
+<div class="col-md-6 fade-up">
+<a href="events/2025/graduation-day-2025.html" class="text-decoration-none">
+<div class="card glass h-100 event-card-ui"><div class="card-body d-flex flex-column">
+<span class="event-tag mb-2">ACADEMIC EVENT</span>
+<h5 class="card-title mb-2">Graduation Day – 2025</h5>
+<div class="event-meta mb-2">📅 22 November 2025</div>
+<p class="card-text flex-grow-1">Celebration of academic achievements of MCA students.</p>
+<div class="event-footer d-flex justify-content-between align-items-center">
+<span class="status-completed">Completed</span><span class="view-more">View Details →</span>
+</div></div></div></a></div>
 
 <!-- 9 -->
-<div class="col-md-6">
-<a href="events/2025/alumni-meet-2025.html" class="text-decoration-none text-dark">
-<div class="card h-100 shadow-sm">
-<div class="card-body">
-<h5 class="card-title">Alumni Meet – 2025</h5>
-<p class="text-muted">27 December 2025</p>
-<p class="card-text">Interaction between alumni and current students.</p>
-<span class="badge bg-success">Completed</span>
-</div>
-</div>
-</a>
-</div>
+<div class="col-md-6 fade-up">
+<a href="events/2025/alumni-meet-2025.html" class="text-decoration-none">
+<div class="card glass h-100 event-card-ui"><div class="card-body d-flex flex-column">
+<span class="event-tag mb-2">ACADEMIC EVENT</span>
+<h5 class="card-title mb-2">Alumni Meet – 2025</h5>
+<div class="event-meta mb-2">📅 27 December 2025</div>
+<p class="card-text flex-grow-1">Interaction between alumni and current students.</p>
+<div class="event-footer d-flex justify-content-between align-items-center">
+<span class="status-completed">Completed</span><span class="view-more">View Details →</span>
+</div></div></div></a></div>
 
 <!-- 10 -->
-<div class="col-md-6">
-<a href="events/2025/programming-to-planning-2025.html" class="text-decoration-none text-dark">
-<div class="card h-100 shadow-sm">
-<div class="card-body">
-<h5 class="card-title">From Programming to Planning</h5>
-<p class="text-muted">24–25 November 2025</p>
-<p class="card-text">Workshop linking technical skills with financial planning.</p>
-<span class="badge bg-success">Completed</span>
-</div>
-</div>
-</a>
-</div>
+<div class="col-md-6 fade-up">
+<a href="events/2025/programming-to-planning-2025.html" class="text-decoration-none">
+<div class="card glass h-100 event-card-ui"><div class="card-body d-flex flex-column">
+<span class="event-tag mb-2">ACADEMIC EVENT</span>
+<h5 class="card-title mb-2">From Programming to Planning</h5>
+<div class="event-meta mb-2">📅 24–25 November 2025</div>
+<p class="card-text flex-grow-1">Workshop linking technical skills with financial planning.</p>
+<div class="event-footer d-flex justify-content-between align-items-center">
+<span class="status-completed">Completed</span><span class="view-more">View Details →</span>
+</div></div></div></a></div>
 
 <!-- 11 -->
-<div class="col-md-6">
-<a href="events/2025/nss-swachh-bharat-2025.html" class="text-decoration-none text-dark">
-<div class="card h-100 shadow-sm">
-<div class="card-body">
-<h5 class="card-title">NSS Shramadhana – Swachh Bharat</h5>
-<p class="text-muted">11 December 2025</p>
-<p class="card-text">Community service under Swachh Bharat Abhiyan.</p>
-<span class="badge bg-success">Completed</span>
-</div>
-</div>
-</a>
-</div>
+<div class="col-md-6 fade-up">
+<a href="events/2025/nss-swachh-bharat-2025.html" class="text-decoration-none">
+<div class="card glass h-100 event-card-ui"><div class="card-body d-flex flex-column">
+<span class="event-tag mb-2">OUTREACH EVENT</span>
+<h5 class="card-title mb-2">NSS Shramadhana – Swachh Bharat</h5>
+<div class="event-meta mb-2">📅 11 December 2025</div>
+<p class="card-text flex-grow-1">Community service under Swachh Bharat Abhiyan.</p>
+<div class="event-footer d-flex justify-content-between align-items-center">
+<span class="status-completed">Completed</span><span class="view-more">View Details →</span>
+</div></div></div></a></div>
 
 <!-- 12 -->
-<div class="col-md-6">
-<a href="events/2025/harivillu-2025.html" class="text-decoration-none text-dark">
-<div class="card h-100 shadow-sm">
-<div class="card-body">
-<h5 class="card-title">Harivillu – Cultural Event</h5>
-<p class="text-muted">10 January 2025</p>
-<p class="card-text">Traditional cultural celebration at SVCE.</p>
-<span class="badge bg-success">Completed</span>
-</div>
-</div>
-</a>
-</div>
+<div class="col-md-6 fade-up">
+<a href="events/2025/harivillu-2025.html" class="text-decoration-none">
+<div class="card glass h-100 event-card-ui"><div class="card-body d-flex flex-column">
+<span class="event-tag mb-2">CULTURAL EVENT</span>
+<h5 class="card-title mb-2">Harivillu – Cultural Event</h5>
+<div class="event-meta mb-2">📅 10 January 2025</div>
+<p class="card-text flex-grow-1">Traditional cultural celebration at SVCE.</p>
+<div class="event-footer d-flex justify-content-between align-items-center">
+<span class="status-completed">Completed</span><span class="view-more">View Details →</span>
+</div></div></div></a></div>
 
 <!-- 13 -->
-<div class="col-md-6">
-<a href="events/2025/moonlight-dinner-2025.html" class="text-decoration-none text-dark">
-<div class="card h-100 shadow-sm">
-<div class="card-body">
-<h5 class="card-title">Moonlight Dinner (Staff)</h5>
-<p class="text-muted">10 September 2025</p>
-<p class="card-text">Staff get-together promoting bonding and teamwork.</p>
-<span class="badge bg-success">Completed</span>
-</div>
-</div>
-</a>
-</div>
+<div class="col-md-6 fade-up">
+<a href="events/2025/moonlight-dinner-2025.html" class="text-decoration-none">
+<div class="card glass h-100 event-card-ui"><div class="card-body d-flex flex-column">
+<span class="event-tag mb-2">STAFF EVENT</span>
+<h5 class="card-title mb-2">Moonlight Dinner (Staff)</h5>
+<div class="event-meta mb-2">📅 10 September 2025</div>
+<p class="card-text flex-grow-1">Staff get-together promoting bonding and teamwork.</p>
+<div class="event-footer d-flex justify-content-between align-items-center">
+<span class="status-completed">Completed</span><span class="view-more">View Details →</span>
+</div></div></div></a></div>
 
 <!-- 14 -->
-<div class="col-md-6">
-<a href="events/2025/freshers-day-2025.html" class="text-decoration-none text-dark">
-<div class="card h-100 shadow-sm">
-<div class="card-body">
-<h5 class="card-title">Freshers Day – 2025</h5>
-<p class="text-muted">11 October 2025</p>
-<p class="card-text">Warm welcome event for new MCA students.</p>
-<span class="badge bg-success">Completed</span>
-</div>
-</div>
-</a>
-</div>
+<div class="col-md-6 fade-up">
+<a href="events/2025/freshers-day-2025.html" class="text-decoration-none">
+<div class="card glass h-100 event-card-ui"><div class="card-body d-flex flex-column">
+<span class="event-tag mb-2">CULTURAL EVENT</span>
+<h5 class="card-title mb-2">Freshers Day – 2025</h5>
+<div class="event-meta mb-2">📅 11 October 2025</div>
+<p class="card-text flex-grow-1">Warm welcome event for new MCA students.</p>
+<div class="event-footer d-flex justify-content-between align-items-center">
+<span class="status-completed">Completed</span><span class="view-more">View Details →</span>
+</div></div></div></a></div>
 
 <!-- 15 -->
-<div class="col-md-6">
-<a href="events/2025/staff-fest-2025.html" class="text-decoration-none text-dark">
-<div class="card h-100 shadow-sm">
-<div class="card-body">
-<h5 class="card-title">Staff Fest – 2025</h5>
-<p class="text-muted">17 December 2025</p>
-<p class="card-text">Celebration showcasing faculty talents and unity.</p>
-<span class="badge bg-success">Completed</span>
-</div>
-</div>
-</a>
-</div>
+<div class="col-md-6 fade-up">
+<a href="events/2025/staff-fest-2025.html" class="text-decoration-none">
+<div class="card glass h-100 event-card-ui"><div class="card-body d-flex flex-column">
+<span class="event-tag mb-2">STAFF EVENT</span>
+<h5 class="card-title mb-2">Staff Fest – 2025</h5>
+<div class="event-meta mb-2">📅 17 December 2025</div>
+<p class="card-text flex-grow-1">Celebration showcasing faculty talents and unity.</p>
+<div class="event-footer d-flex justify-content-between align-items-center">
+<span class="status-completed">Completed</span><span class="view-more">View Details →</span>
+</div></div></div></a></div>
 
 </div>
-
 </section>
 
-<!-- ===== FOOTER ===== -->
 <footer class="bg-dark text-white text-center p-3">
-    <p class="mb-0">© 2025 MCA Department | SVCE, Tirupati</p>
+© 2025 MCA Department | SVCE, Tirupati
 </footer>
 
-<!-- Bootstrap JS -->
+<script>
+document.getElementById("eventSearch").addEventListener("keyup", function () {
+  let value = this.value.toLowerCase();
+  document.querySelectorAll("#eventList .col-md-6").forEach(card => {
+    card.style.display = card.innerText.toLowerCase().includes(value)
+      ? "block" : "none";
+  });
+});
+</script>
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+const reveal = document.querySelectorAll('.fade-up');
+const io = new IntersectionObserver(entries=>{
+  entries.forEach(e=>{
+    if(e.isIntersecting){
+      e.target.classList.add('show');
+      io.unobserve(e.target);
+    }
+  });
+},{threshold:.15});
+reveal.forEach(el=>io.observe(el));
+</script>
 
 </body>
 </html>
